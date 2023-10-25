@@ -39,21 +39,12 @@
             </li>
 
             <li class="nav-item">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-circle nav-icon"></i>
+                <a href="{{ route('uploads.index') }}" class="nav-link">
+                    <i class="nav-icon far fa-file"></i>
                     <p>
-                        Two-level menu
-                        <i class="fas fa-angle-left right"></i>
+                        {{ __('Csv Management') }}
                     </p>
                 </a>
-                <ul class="nav nav-treeview" style="display: none;">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="far fa-circle nav-icon"></i>
-                            <p>Child menu</p>
-                        </a>
-                    </li>
-                </ul>
             </li>
         </ul>
     </nav>

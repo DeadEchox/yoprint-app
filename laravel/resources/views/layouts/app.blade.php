@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="{{ asset('css/fontawesome.min.css') }}">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ asset('css/adminlte.min.css') }}">
+    <script src="{{ asset('js/bootstrap.js') }}"></script>
     @yield('styles')
 </head>
 <body class="hold-transition sidebar-mini">
@@ -59,7 +60,7 @@
             <img src="{{ asset('images/AdminLTELogo.png') }}" alt="AdminLTE Logo"
                  class="brand-image img-circle elevation-3"
                  style="opacity: .8">
-            <span class="brand-text font-weight-light">AdminLTE 3</span>
+            <span class="brand-text font-weight-light">YoPrint</span>
         </a>
 
         @include('layouts.navigation')
